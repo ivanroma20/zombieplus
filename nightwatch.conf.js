@@ -24,7 +24,7 @@ module.exports = {
 
     screenshots : {
         enabled: true,
-        onfailure: true,
+        on_failure: true,
         on_error: true,
         path: 'tests_output/'
     },
