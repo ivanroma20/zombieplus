@@ -8,6 +8,7 @@
     "test:nologin": "./node_modules/.bin/nightwatch --skipgroup login",
     "test:smoke": "./node_modules/.bin/nightwatch --tag smoke",
     "stage:smoke": "./node_modules/.bin/nightwatch --tag smoke --env=stage",
+    "stage:safari": "./node_modules/.bin/nightwatch --tag smoke --env=safari",
     "test:notag": "./node_modules/.bin/nightwatch --skiptags smoke,404",
     "test": "./node_modules/.bin/nightwatch",
     "test:ci": "./node_modules/.bin/nightwatch --env=headless"
@@ -23,14 +24,14 @@
   "author": "Ivan Mora",
   "license": "ISC",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-plugin-add-module-exports": "^1.0.2",
+    "babel-cli": "^6.18.0",
+    "babel-plugin-add-module-exports": "^1.0.4",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-es2015": "^6.24.1",
-    "chromedriver": "^78.0.1",
-    "faker": "^4.1.0",
-    "geckodriver": "^1.19.1",
-    "nightwatch": "^1.2.4",
-    "pg": "^7.13.0"
-  },
-  "dependencies": {}
+    "chromedriver": "^89.0.0",
+    "faker": "^5.5.3",
+    "geckodriver": "^1.22.3",
+    "nightwatch": "^1.6.2",
+    "pg": "^8.6.0"
+  }
 }

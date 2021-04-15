@@ -77,6 +77,22 @@ module.exports = {
             }
         },
 
+
+        safari : {
+            launch_url: testUrl ,
+            globals: {
+                waitForConditionTimeout: defaultTimeout // when the networks connection is slow
+            },
+            webdriver: {
+                server_path: '/usr/bin/safaridriver',
+                port: 4445
+            },
+            desiredCapabilities: {
+                browserName: "safari",
+                acceptInsecureCerts: true
+            }
+        },
+
         stage : {
             launch_url: "http://stage.zombieplus.com.br"
         }
