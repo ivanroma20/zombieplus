@@ -31,7 +31,7 @@
     "chromedriver": "^89.0.0",
     "faker": "^5.5.3",
     "geckodriver": "^1.22.3",
-    "nightwatch": "^1.6.2",
+    "nightwatch": "^2.6.3",
     "pg": "^8.6.0"
   }
 }
